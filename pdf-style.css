@@ -7,14 +7,14 @@
     background-color: var(--main-highlight-color);
   }
 
-  /* @top-left{
+  @top-left{
     content:element(header);
     margin-left:-8cm;
     width:210mm;
     background-color:var(--main-highlight-color);
   }
 
-  @top-right-corner{
+  /* @top-right-corner{
     content:"";
     background-color:var(--main-highlight-color);
   }
