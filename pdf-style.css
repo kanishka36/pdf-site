@@ -7,7 +7,7 @@
     background-color: var(--main-highlight-color);
   }
 
-  @top-left{
+  /* @top-left{
     content:element(header);
     margin-left:-8cm;
     width:210mm;
@@ -27,7 +27,7 @@
   @bottom-left-corner{
     content:"";
     background-color:var(--secondary-highlight-color);
-  }
+  } */
 }
 
 /* 
