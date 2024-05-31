@@ -1,4 +1,9 @@
 @page {
   size: A4;
   margin: 5cm 1.2cm 1.2cm 8cm;
+
+  @top-left-corner {
+    content: "";
+    background-color: var(--main-highlight-color);
+  }
 }
