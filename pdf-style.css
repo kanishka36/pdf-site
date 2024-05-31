@@ -19,12 +19,12 @@
     background-color:var(--main-highlight-color);
   }
   
-  /* @left-top{
+  @left-top{
     content:element(aside);
     background-color:var(--secondary-highlight-color);
   }
   
-  @bottom-left-corner{
+  /* @bottom-left-corner{
     content:"";
     background-color:var(--secondary-highlight-color);
   } */
