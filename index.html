@@ -1,30 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="pdf-style.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <style>
-      footer {
-        flow: static(footer-html);
-      }
-      @page {
-        margin-bottom: 80px;
-        @bottom {
-          content: flow(footer-html);
-        }
-      }
-    </style>
-
-    <footer>
-      <a href="https://docraptor.com">DocRaptor is awesome!</a>
-      <img src="https://docraptor.com/docraptor-logo.png" />
-    </footer>
-    <!-- Note: The footer content is ABOVE the rest of the document content -->
-    <p>Normal document content</p>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DocRaptor PDF Layout Prototype</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      width: 80%;
+      margin: 0 auto;
+    }
+    .header {
+      text-align: center;
+      padding: 20px;
+      background-color: #f8f8f8;
+      border-bottom: 1px solid #ddd;
+    }
+    .content {
+      padding: 20px;
+    }
+    .footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #f8f8f8;
+      border-top: 1px solid #ddd;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>PDF Title</h1>
+    </div>
+    <div class="content">
+      <p>This is the main content of the PDF. You can add more HTML elements here as needed.</p>
+    </div>
+    <div class="footer">
+      <p>Footer Content</p>
+    </div>
+  </div>
+</body>
 </html>
