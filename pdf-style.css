@@ -1,4 +1,9 @@
-@page { 
-    size: A4 landscape;
-    margin: 10mm;
-  }
+@page: left{
+  margin-left: 3cm;
+  margin-right: 1cm;
+};
+
+@page: right{
+  margin-left: 1cm;
+  margin-right: 3cm;
+};
