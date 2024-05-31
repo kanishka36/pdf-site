@@ -1,9 +1,5 @@
-@page: left{
-  margin-left: 3cm;
-  margin-right: 1cm;
-};
-
-@page: right{
-  margin-left: 1cm;
-  margin-right: 3cm;
+@page: blank{
+  @top-center {
+    content: "";
+  }
 };
