@@ -4,18 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="pdf-style.css">
+    <link rel="stylesheet" href="pdf-style.css" />
     <title>Document</title>
   </head>
   <body>
-    <h1>h1 header</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus
-      provident accusantium, quo tempora distinctio consectetur suscipit sed,
-      natus voluptates in ea ad officia labore minima ab amet nostrum earum
-      similique eveniet. Autem voluptatum id cumque quos nulla ad repellendus
-      delectus quidem magni sint, vero voluptate vel maxime magnam labore
-      mollitia.
-    </p>
+    <style>
+      footer {
+        flow: static(footer-html);
+      }
+      @page {
+        margin-bottom: 80px;
+        @bottom {
+          content: flow(footer-html);
+        }
+      }
+    </style>
+
+    <footer>
+      <a href="https://docraptor.com">DocRaptor is awesome!</a>
+      <img src="https://docraptor.com/docraptor-logo.png" />
+    </footer>
+    <!-- Note: The footer content is ABOVE the rest of the document content -->
+    <p>Normal document content</p>
   </body>
 </html>
