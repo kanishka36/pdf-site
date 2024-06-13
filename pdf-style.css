@@ -7,6 +7,24 @@
     text-align: right;
     vertical-align: bottom;
   }
+
+  @top-right-corner {
+    content: element(top-right-corner-html);
+    text-align: left;
+    vertical-align: top;
+  }
+
+  @right-top {
+    content: element(right-top-html);
+    text-align: left;
+    vertical-align: top;
+  }
+
+  @bottom-right-corner {
+    content: element(bottom-right-corner-html);
+    text-align: right;
+    vertical-align: top;
+  }
 }
 
 @media print {
