@@ -27,6 +27,15 @@
   }
 }
 
+@page cover {
+  margin: 0;
+  background-color: black;
+
+  @top-right {
+      content: none;  
+  }
+}
+
 @media print {
   .two-column {
     column-count: 4;
