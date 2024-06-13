@@ -34,6 +34,6 @@
   margin-top: 20px;
   @top {
     /* header with counter functions to insert page counters */
-    content: "Page " counter(page) " of " counter(pages) " pages "
+    content: "Page " counter(page) " of " counter(pages) " pages ";
   }
 }
