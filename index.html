@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -70,4 +70,58 @@
       </p>
     </section>
   </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Styling Example</title>
+    <style>
+        @page {
+            margin: 50px 50px 100px 50px; /* top, right, bottom, left margins */
+            @bottom-center {
+                content: string(chapter-title);
+                font-size: 12px;
+                color: gray;
+            }
+        }
+
+        h1 {
+            string-set: chapter-title content();
+            page-break-before: always;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        .chapter {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="chapter">
+        <h1>Introduction to PDF Styling</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+    </div>
+    <div class="chapter">
+        <h1>Advanced CSS Techniques</h1>
+        <p>
+            Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus.
+        </p>
+    </div>
+    <div class="chapter">
+        <h1>JavaScript and PDFs</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+    </div>
+</body>
 </html>
+
