@@ -1,4 +1,4 @@
-@page {
+/* @page {
   size: A4 landscape;
   margin-top: 120px;
 }
@@ -12,5 +12,5 @@
 
 @top-right-corner {
   content: string(mark)
-}
+} */
 
