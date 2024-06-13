@@ -1,32 +1,35 @@
+@prince-pdf {
+  -prince-pdf-output-intent: url("ISOcoated_v2_eci.icc");
+}
 @page {
-  size: A4 landscape;
-  margin-top: 120px;
+  size: 26.67in 15in;
+  margin: 30mm;    
+  background-color: white;
 
   @top-right {
-    content: element(top-right-html);
-    text-align: right;
-    vertical-align: bottom;
+      content: element(top-right-html);
+      text-align: right;
+      vertical-align: bottom; 
   }
 
   @top-right-corner {
-    content: element(top-right-corner-html);
-    text-align: left;
-    vertical-align: top;
+      content: element(top-right-corner-html);
+      text-align: left;
+      vertical-align: top;
   }
 
   @right-top {
-    content: element(right-top-html);
-    text-align: left;
-    vertical-align: top;
+      content: element(right-top-html);
+      text-align: left;
+      vertical-align: top;
   }
 
   @bottom-right-corner {
-    content: element(bottom-right-corner-html);
-    text-align: right;
-    vertical-align: top;
+      content: element(bottom-right-corner-html);
+      text-align: right;
+      vertical-align: top;
   }
 }
-
 @page cover {
   margin: 0;
   background-color: black;
@@ -35,10 +38,132 @@
       content: none;  
   }
 }
+@page section {
+  margin: 0;
+  background-color: gray;
 
-@media print {
+  @top-right {
+      content: none;  
+  }
+}
+
+
+.top-right-area {
+  height: 30mm;
+  position: running(top-right-html);
+}
+.top-right-corner-area {
+  height: 30mm;
+  width: 30mm;
+  position: running(top-right-corner-html);
+}
+.right-top-area {
+  width: 30mm;
+  position: running(right-top-html);
+}
+.bottom-right-corner-area {
+  width: 30mm;
+  height: 30mm;
+  position: running(bottom-right-corner-html);
+}
+.bottom-right-corner-area > div > .page-number::after {
+  content: counter(page);
+}
+
+#cover {
+  page: cover;
+  width: 26.67in; 
+  height: 15in;
+  background-color: black;
+}
+.section {
+  page: section;
+  width: 26.67in; 
+  height: 15in;
+  background-color: gray;
+  padding: 30mm;
+}
+.section h1 {
+  color: white;
+  font-size: 10rem;
+  width: 25%;
+  line-height: 1.2;
+}
+
+.four-column {
+  column-count: 4;
+  column-gap: 12mm;
+  column-fill: auto;
+}
+.new-page {
+  break-before: page;
+}
+
+
+.top-right-area > div {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-bottom: 15mm;
+}
+.top-right-area h6 {
+  font-size: 14px;
+  margin: 0;
+}
+
+.top-right-corner-area > div {
+  height: 15mm;
+  width: 100%;
+  padding-left: 15mm;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.top-right-corner-area > div > span {
+  width: 5px;
+  height: 100%;
+  background-color: black;
+}
+
+.right-top-area > div {
+  padding-left: 15mm;
+}
+.right-top-area > div > .year {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: min-content;
+  margin-bottom: 25mm;
+}
+.right-top-area > div > .year > span {
+  margin-bottom: 10px;
+  font-size: 14px;
+  text-align: left;
+}
+.right-top-area > div > .section-header-image img {
+  width: 100%;
+  height: auto;
+}
+
+.bottom-right-corner-area > div {
+  padding-left: 15mm;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bottom-right-corner-area > div > .page-number {
+  font-size: 20px;
+}
+.bottom-right-corner-area > div > .black-line {
+  width: 7mm;
+  height: 5px;
+  background-color: black;
+}
+
+/* @media print {
   .two-column {
     column-count: 4;
     column-gap: 20px;
   }
-}
+} */

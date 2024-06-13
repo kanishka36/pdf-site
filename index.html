@@ -1,98 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Test site1</title>
-    <link rel="stylesheet" href="pdf-style.css" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="cover"></div>
-    <!-- <div class="mark"></div> -->
-    <section class="top-right-area">
-      <div>
-        <h6>2 MAS Plan for Change | Impact Report</h6>
-      </div>
-    </section>
-    <section class="top-right-corner-area">
-      <div>
-        <span></span>
-      </div>
-    </section>
-    <section class="right-top-area">
-      <div>
-        <div class="year">
-          <span>2</span>
-          <span>0</span>
-          <span>2</span>
-          <span>2</span>
-        </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
 
-        <div class="section-header-image">
-          <img src="{ rightSideElement.src }" alt="" />
+    <div id="cover">
+
+    </div>
+
+    <div class="section">
+        <h1>{ post.title }</h1>
+    </div>
+    
+    <div class="new-page">
+
+        <section class="top-right-area">
+            <div>
+                <h6>2 MAS Plan for Change | Impact Report</h6>
+            </div>
+        </section>
+        <section class="top-right-corner-area">
+            <div>
+                <span></span>
+            </div>
+        </section>
+        <section class="right-top-area">
+            <div>
+                <div class="year">
+                    <span>2</span>
+                    <span>0</span>
+                    <span>2</span>
+                    <span>2</span>
+                </div>
+    
+                <div class="section-header-image">
+                    <img src="{ rightSideElement.src }" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="bottom-right-corner-area">
+            <div>
+                <span class="page-number"></span>
+                <span class="black-line"></span>
+            </div>
+        </section>
+    
+        <h1 class="page-title">{ post.title }</h1>
+    
+        <div class="four-column">
+            { @html post.content }
         </div>
-      </div>
-    </section>
-    <h1>Message from the Group CEO</h1>
-    <section class="two-column">
-      <img class="callout" src="./assests/boss.png" />
-      <p>
-        With the onset of the pandemic, and the subsequent economic turbulence
-        that is being felt across the world, each passing year has presented us
-        with unprecedented challenges to deal with as a business. The year 2022
-        was no different, with a particularly challenging climate in Sri Lanka
-        due to the economic crisis that hit in the early months, followed by the
-        impact of the global economic headwinds felt during the latter part of
-        the year.
-      </p>
-      <h2>
-        As a company built on the strength of its people, during challenging
-        times like these our focus remains on our employees across the globe,
-        supporting them through turbulent times, while positioning the overall
-        business for longevity and securing sustainable, equitable growth for
-        the future.
-      </h2>
-      <p>
-        In the year 2022, MAS focused on strengthening the core of our business,
-        by building a diversified and resilient customer portfolio, improving
-        efficiencies in manufacturing, and securing an optimized supply chain.
-        With the addition of new customers from new geographies to our
-        portfolio, the strategic engagement through the joint venture with Tata
-        Group’s Trent Ltd, and the launch of TEXO through the acquisition of BAM
-        Knitting in Sri Lanka, we have provided our business with key building
-        blocks for the future, while augmenting a vertically integrated
-        manufacturing footprint in Sri Lanka.
-      </p>
-      <p>
-        In 2022, we also witnessed the growth of our femtech vertical, recently
-        rebranded as femography, and strengthened through new customer
-        partnerships. Our Adaptive Centre of Excellence, Lable by MAS, was
-        formally launched in 2022, building on years of work in this space to
-        further develop our capability in offering adaptive apparel solutions
-        for persons with disabilities.
-      </p>
-      <p>
-        With a key focus on creating sustainable alternatives for the products
-        and apparel solutions that we offer our customers, our strategic
-        business unit Noyon Lanka introduced ‘Planetones,’ a 100% natural dye
-        solution certified by the Control Union, through which we continue to
-        explore the opportunity of creating garments coloured exclusively with
-        natural dyes.
-      </p>
-      <p>
-        Our biggest strength remains the collective capability of MAS,
-        innovating new technologies that are applicable across multiple product
-        categories, enabling us to offer integrated innovation, design,
-        development, manufacturing and supply chain solutions.
-      </p>
-      <p>
-        A testament to these efforts is the recent recognition of our innovation
-        arm, Twinery, by Fast Company in its list for ‘Best Workplaces for
-        Innovators’. This recognition honours organisations committed to
-        innovation at all levels, and it was a privilege to see MAS being ranked
-        among other global giants such as Microsoft and Siemens.
-      </p>
-    </section>
-  </body>
+    </div>
+    
+    <div class="new-page">
+
+        <section class="top-right-area">
+            <div>
+                <h6>2 MAS Plan for Change | Impact Report</h6>
+            </div>
+        </section>
+        <section class="top-right-corner-area">
+            <div>
+                <span></span>
+            </div>
+        </section>
+        <section class="right-top-area">
+            <div>
+                <div class="year">
+                    <span>2</span>
+                    <span>0</span>
+                    <span>2</span>
+                    <span>2</span>
+                </div>
+    
+                <div class="section-header-image">
+                    <img src="{ rightSideElement.src }" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="bottom-right-corner-area">
+            <div>
+                <span class="page-number"></span>
+                <span class="black-line"></span>
+            </div>
+        </section>
+    
+        <h1 class="page-title">{ post.title }</h1>
+    
+        <div class="four-column">
+            { @html post.content }
+        </div>
+    </div>
+
+    <div class="section">
+        <h1>{ post.title }</h1>
+    </div>
+        
+    <div class="new-page">
+
+        <section class="top-right-area">
+            <div>
+                <h6>2 MAS Plan for Change | Impact Report</h6>
+            </div>
+        </section>
+        <section class="top-right-corner-area">
+            <div>
+                <span></span>
+            </div>
+        </section>
+        <section class="right-top-area">
+            <div>
+                <div class="year">
+                    <span>2</span>
+                    <span>0</span>
+                    <span>2</span>
+                    <span>2</span>
+                </div>
+    
+                <div class="section-header-image">
+                    <img src="{ rightSideElement.src }" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="bottom-right-corner-area">
+            <div>
+                <span class="page-number"></span>
+                <span class="black-line"></span>
+            </div>
+        </section>
+    
+        <h1 class="page-title">{ post.title }</h1>
+    
+        <div class="four-column">
+            { @html post.content }
+        </div>
+    </div>
+
+</body>
 </html>
