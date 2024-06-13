@@ -1,5 +1,8 @@
 @page {
   size: A4 landscape;
+  @top-right-corner {
+    content: string(mark)
+  }
 }
 
 @media print {
@@ -9,7 +12,4 @@
   }
 }
 
-.callout {
-  float: top;
-  float-defer-page: left;
-}
+
