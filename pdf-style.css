@@ -2,8 +2,9 @@
   size: A4 landscape;
 }
 
-.callout {
-  float: outside;
-  margin-outisde: -100px;
-  margin-inside: 10px;
+@media print {
+  .two-column {
+    column-count: 2;
+    column-gap: 20px;
+  }
 }
