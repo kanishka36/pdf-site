@@ -167,6 +167,7 @@
   column-fill: auto;
 }
 
+.text-columns h1,
 .text-columns p,
 .text-columns h2 {
   margin: 0;
