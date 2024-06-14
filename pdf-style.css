@@ -30,6 +30,7 @@
       vertical-align: top;
   }
 }
+
 @page cover {
   margin: 0;
   background-color: black;
@@ -89,12 +90,6 @@
   width: 25%;
   line-height: 1.2;
 }
-
-/* .four-column {
-  column-count: 4;
-  column-gap: 10mm;
-  column-fill: auto;
-} */
 
 .container {
   display: flex;
