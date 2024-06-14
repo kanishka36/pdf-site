@@ -3,7 +3,7 @@
 }
 @page {
   size: A4 landscape;
-  margin: 30mm 15mm;
+  margin: 20mm 15mm;
   background-color: white;
 
   @top-right {
