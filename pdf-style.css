@@ -96,7 +96,7 @@
 .top-right-corner-area > div {
   height: 15mm;
   width: 100%;
-  padding-left: 5mm;
+  padding-left: 0mm;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -108,7 +108,7 @@
 }
 
 .right-top-area > div {
-  padding-left: 5mm;
+  padding-left: 0mm;
 }
 .right-top-area > div > .year {
   display: flex;
@@ -128,7 +128,7 @@
 }
 
 .bottom-right-corner-area > div {
-  padding-left: 5mm;
+  padding-left: 0mm;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -140,6 +140,7 @@
   width: 7mm;
   height: 5px;
   background-color: black;
+  margin-right: 15mm;
 }
 
 
