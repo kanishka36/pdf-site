@@ -3,7 +3,7 @@
 }
 @page {
   size: A4 landscape;
-  margin: 30mm;
+  margin: 30mm 10mm;
   background-color: white;
 
   @top-right {
@@ -182,6 +182,6 @@
 
 .blue-text {
   color: blue;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
