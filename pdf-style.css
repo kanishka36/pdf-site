@@ -90,9 +90,18 @@
   line-height: 1.2;
 }
 
-.four-column {
-  column-count: 4;
-  column-gap: 12mm;
+.column-1 {grid-area: img;}
+.column-2 {grid-area: p;}
+
+.four-container {
+  display: grid;
+  grid-template-areas: 'img p p p';
+  gap: 10mm;
+}
+
+.column-2 {
+  column-count: 3;
+  column-gap: 10mm;
   column-fill: auto;
 }
 .new-page {
