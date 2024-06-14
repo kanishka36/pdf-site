@@ -90,11 +90,37 @@
   line-height: 1.2;
 }
 
-four-column {
+/* .four-column {
   column-count: 4;
   column-gap: 10mm;
   column-fill: auto;
-}.
+} */
+
+.container {
+  display: flex;
+}
+
+.image-column {
+  flex: 1;
+  max-width: 25%;
+}
+
+.image-column img {
+  width: 100%;
+  height: auto;
+}
+
+.text-columns {
+  flex: 3;
+  max-width: 75%;
+  column-count: 3;
+  column-gap: 10mm;
+  column-fill: auto;
+}
+
+.text-columns p {
+  margin: 0;
+}
 
 .column-1 > img{
   max-width: 100%;
