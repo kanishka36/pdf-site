@@ -89,12 +89,12 @@
   padding-bottom: 15mm;
 }
 .top-right-area h6 {
-  font-size: 14px;
+  font-size: 11px;
   margin: 14mm 0 0 0;
 }
 
 .top-right-corner-area > div {
-  height: 15mm;
+  height: 12mm;
   width: 100%;
   padding-left: 0mm;
   display: flex;
@@ -102,7 +102,7 @@
   justify-content: flex-start;
 }
 .top-right-corner-area > div > span {
-  width: 5px;
+  width: 4px;
   height: 100%;
   background-color: black;
 }
