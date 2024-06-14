@@ -205,14 +205,14 @@
 
 .box-grid-container {
   display: grid;
-  grid-template-columns: 540px 540px 540px;
-  gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 10mm;
 }
 .box {
   display: grid;
-  grid-template-columns: 40px 500px;
+  grid-template-columns: 1fr 10fr;
   grid-template-rows: auto;
-  gap: 10px;
   background-color: rgb(87 114 146);
   width: 540px;
 }
