@@ -215,6 +215,7 @@
   grid-template-rows: auto;
   background-color: rgb(87 114 146);
   width: 540px;
+  float: left;
 }
 
 
