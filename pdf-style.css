@@ -180,3 +180,8 @@
   object-fit: contain;
 }
 
+.blue-text {
+  color: blue;
+  font-size: 2rem;
+}
+
