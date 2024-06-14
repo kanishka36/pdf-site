@@ -70,19 +70,19 @@
   content: counter(page);
 }
 
-#cover {
+/* #cover {
   page: cover;
   width: 26.67in; 
   height: 15in;
   background-color: black;
-}
-.section {
+} */
+/* .section {
   page: section;
   width: 26.67in; 
   height: 15in;
   background-color: gray;
   padding: 30mm;
-}
+} */
 .section h1 {
   color: white;
   font-size: 2rem;
@@ -161,11 +161,14 @@
   background-color: black;
 }
 
+
+
+/* 
 @media print {
   .two-column {
     column-count: 4;
     column-gap: 20px;
   }
-} 
+}  */
  
 
