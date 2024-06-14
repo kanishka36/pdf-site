@@ -114,7 +114,7 @@
   column-fill: auto;
 }
 
-.text-columns p {
+.text-columns p, .text-columns h2 {
   margin: 0;
 }
 
