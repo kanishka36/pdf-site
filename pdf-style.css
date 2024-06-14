@@ -143,7 +143,6 @@
   margin-right: 15mm;
 }
 
-
 /* content  */
 .container {
   display: flex;
@@ -168,7 +167,8 @@
   column-fill: auto;
 }
 
-.text-columns p, .text-columns h2 {
+.text-columns p,
+.text-columns h2 {
   margin: 0;
   break-inside: avoid;
   orphans: 3;
@@ -186,15 +186,8 @@
   font-size: 1.5rem;
 }
 
-<<<<<<< HEAD
-.text-columns-continued {
+.text-column-continued {
   column-count: 4;
   column-gap: 10mm;
   column-fill: auto;
 }
-=======
-.page-title {
-  break-inside: avoid;
-}
-
->>>>>>> 9bb4666fb1b1765895b716764709428e2a7b26b1

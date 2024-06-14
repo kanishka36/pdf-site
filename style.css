@@ -10,8 +10,3 @@ body {
   object-fit: contain;
 }
 
-.text-column-continued {
-  column-count: 4;
-      column-gap: 10mm;
-      column-fill: auto;
-}
