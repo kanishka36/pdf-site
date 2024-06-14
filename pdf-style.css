@@ -194,6 +194,11 @@
 }
 
 /* box  */
+.box-grid-container {
+  display: grid;
+  grid-template-columns: 540px 540px 540px;
+  gap: 30px;
+}
 .box {
   display: grid;
   grid-template-columns: 40px 500px;
