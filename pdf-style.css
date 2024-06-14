@@ -2,7 +2,7 @@
   -prince-pdf-output-intent: url("ISOcoated_v2_eci.icc");
 }
 @page {
-  size: 26.67in 15in;
+  size: A4 landscape;
   margin: 30mm;    
   background-color: white;
 
