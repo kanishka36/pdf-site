@@ -90,11 +90,11 @@
   line-height: 1.2;
 }
 
-.four-column {
+four-column {
   column-count: 4;
   column-gap: 10mm;
   column-fill: auto;
-}
+}.
 
 .column-1 > img{
   max-width: 100%;
