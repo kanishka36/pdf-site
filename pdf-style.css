@@ -70,19 +70,6 @@
   content: counter(page);
 }
 
-/* #cover {
-  page: cover;
-  width: 26.67in; 
-  height: 15in;
-  background-color: black;
-} */
-/* .section {
-  page: section;
-  width: 26.67in; 
-  height: 15in;
-  background-color: gray;
-  padding: 30mm;
-} */
 .section h1 {
   color: white;
   font-size: 2rem;
@@ -115,6 +102,9 @@
 
 .text-columns p, .text-columns h2 {
   margin: 0;
+  break-inside: avoid;
+  orphans: 3;
+  widows: 3;
 }
 
 .column-1 > img {
@@ -187,11 +177,3 @@
   height: 5px;
   background-color: black;
 }
-
-/* 
-@media print {
-  .two-column {
-    column-count: 4;
-    column-gap: 20px;
-  }
-}  */
