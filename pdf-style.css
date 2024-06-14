@@ -180,13 +180,3 @@
   object-fit: contain;
 }
 
-/* Prevent columns from breaking inside */
-.text-columns p, .text-columns h2 {
-  break-inside: avoid;
-}
-
-/* Control page breaks to avoid leaving single lines at the top or bottom of a page */
-p, h2 {
-  orphans: 3;
-  widows: 3;
-}
