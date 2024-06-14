@@ -28,11 +28,8 @@ body {
 }
 
 @media print {
-  .four-column {
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-
-  .column {
-      page-break-inside: avoid;
+  .two-column {
+    column-count: 4;
+    column-gap: 20px;
   }
 }
