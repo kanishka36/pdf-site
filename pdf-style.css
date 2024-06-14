@@ -190,4 +190,25 @@
   column-count: 4;
   column-gap: 10mm;
   column-fill: auto;
+  break-after: break;
+}
+
+/* box  */
+.box {
+  display: grid;
+  grid-template-columns: 40px 500px;
+  grid-template-rows: auto;
+  gap: 10px;
+  background-color: rgb(87 114 146);
+  width: 540px;
+}
+
+
+.box > div h1, .box > div h3 {
+  color: white;
+}
+
+.box > div .img-bottom {
+  display: flex;
+  justify-content: center;
 }
