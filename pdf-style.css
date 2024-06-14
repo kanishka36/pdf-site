@@ -1,4 +1,4 @@
-/* @prince-pdf {
+@prince-pdf {
   -prince-pdf-output-intent: url("ISOcoated_v2_eci.icc");
 }
 @page {
@@ -168,15 +168,4 @@
   }
 } 
  
-*/
 
-@page {
-  margin: 1in;
-}
-
-@media print {
-  .two-column {
-    column-count: 4;
-    column-gap: 20px;
-  }
-}
