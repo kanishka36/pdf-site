@@ -186,8 +186,15 @@
   font-size: 1.5rem;
 }
 
+<<<<<<< HEAD
 .text-columns-continued {
   column-count: 4;
   column-gap: 10mm;
   column-fill: auto;
 }
+=======
+.page-title {
+  break-inside: avoid;
+}
+
+>>>>>>> 9bb4666fb1b1765895b716764709428e2a7b26b1
